@@ -1,0 +1,297 @@
+@font-face {
+    font-family: 'rotundaregular';
+    src: url('/fonts/rotunda-regular-webfont.woff2') format('woff2'),
+        url('/fonts/rotunda-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rotundabold';
+    src: url('/fonts/rotunda-bold-webfont.woff2') format('woff2'),
+         url('/fonts/rotunda-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+:root {
+    --back-color: #0D0C0C;
+}
+
+
+
+* {
+    font-family: 'rotundaregular', 'Arial';
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    background-color: var(--back-color);
+
+}
+
+main {
+    font-weight: normal;
+    min-height: calc(100vh - 8vh - 11vh);
+    overflow-x: clip;
+
+}
+
+
+
+
+.top-flex {
+    position: relative;
+    margin-top: 4vw;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: 10vw;
+    width: 80vw;
+    height: 5vw;
+}
+
+.coin-name {
+    display: flex;
+    flex-direction: row;
+}
+
+.coin-name>h2{
+font-size:4vh;
+}
+
+.coin-name>img {
+    height: 2vw;
+    margin-right: 1vw;
+    margin-bottom: 1vw;
+    scale:1.4;
+}
+
+.top-flex-left>p {
+    display: inline-flex;
+}
+
+h2 {
+    font-weight: bolder;
+}
+
+.coin-name>h4>ul>li {
+    line-height: 2.3vw;
+    opacity: 0.6;
+}
+
+.coin-name>h4>ul>li>span {
+    position: relative;
+    left: -0.5vw;
+    opacity: 0.6;
+    font-size:2.5vh;
+
+}
+
+
+
+
+.coin-name>h4>ul {
+    padding-left: 2vw;
+}
+
+.heart {
+    background-image: url(/img/icons/heart-line.png);
+    background-repeat: no-repeat;
+    transition: 0.2s;
+    width:1.2vw;
+    height:2.2vh;
+    margin-left: 5vw;
+    display: flex;
+    position: relative;
+    margin-top:0.3vw;
+    scale:2;
+}
+
+.heart:hover {
+    background-image: url(/img/icons/heart-fill.png);
+    background-repeat: no-repeat;
+    transition: 0.2s;
+}
+
+.trade>a {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1vw;
+    line-height: 2vw;
+    text-decoration: underline;
+    color: white;
+    transition: 0.2s;
+}
+
+.trade>a:hover {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1vw;
+    line-height: 2vw;
+    text-decoration: underline;
+    color: #CC00FF;
+}
+
+
+.profit-loss {
+    display: flex;
+    margin-left: 4vw;
+    color: red;
+}
+
+.top-flex-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.coin-price {
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+}
+
+.coin-price>p {
+    display: inline;
+    margin-left: 3vw;
+    font-size:2.5vh;
+}
+
+.top-flex-right {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.coin-supply {
+    margin-top: 0.2vh;
+    display: inline-flex;
+    font-size:2vh;
+
+
+}
+
+.like-img{
+    margin-top: 1.5vh;
+    margin-left:2vw;
+    transform: scale(1.5);
+    
+}
+
+.top-flex-right>p {
+    display: inline-flex;
+    margin-left: 2vw;
+}
+
+
+
+
+.coin-supply>th,
+td {
+    padding-right: 2vw;
+}
+
+.coin-stats {
+    display: flex;
+    width: 25vw;
+    margin-top: 5.5vh;
+    height: 24vh;
+    background: #272324;
+    border: 5px solid #4E4B4D;
+    border-radius: 30px;
+}
+
+.coin-stats-info {
+    display: inline-flex;
+    width: 100%;
+    display: flex;
+    font-weight: 500;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 1.6vh;
+    overflow: clip;
+    margin-top:0.4vh;
+}
+
+
+
+.coin-stats-info-row>td {
+    width: 20vw;
+
+}
+
+.coin-stats-info-row-right {
+    text-align: right;
+    padding-top: 1.2vh;
+}
+
+.coin-stats-info-row-right-white {
+    text-align: right;
+    padding-top: 1.2vh;
+}
+
+.coin-stats-info-row-left {
+    text-align: left;
+    padding-left: 2vw;
+    padding-top: 1.2vh;
+}
+
+.stats-and-graph-flex {
+    display: inline-flex;
+    width: 80vw;
+    margin-left: 10vw;
+    justify-content: space-between;
+    
+}
+
+
+.graph {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.graph>h2 {
+    margin-right: 10vw;
+    font-size:3vh;
+}
+
+.graph>img {
+    justify-self: flex-end;
+    align-self: flex-end;
+    height: 12vw;
+
+
+    border: 3px solid #4E4B4D;
+}
+
+.coin-about {
+    display: inline-flex;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 8vh;
+    height: 20vh;
+    background: #272324;
+    border: 5px solid #4E4B4D;
+    border-radius: 49.103px;
+    flex-direction: column;
+}
+
+.coin-about > h4{
+    font-family: 'rotundaregular';
+    font-weight: bold;
+    margin:1.4vw 2vw;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size:2.5vh;
+}
+
+.coin-about > p{
+    margin: 0px 2vw;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display:inline-flex;
+    width: 76vw;
+    font-size:1.8vh;
+    overflow-y: auto;
+
+}

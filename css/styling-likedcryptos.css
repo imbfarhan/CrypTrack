@@ -1,0 +1,277 @@
+@font-face {
+    font-family: 'rotundaregular';
+    src: url('/fonts/rotunda-regular-webfont.woff2') format('woff2'),
+        url('/fonts/rotunda-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rotundabold';
+    src: url('/fonts/rotunda-bold-webfont.woff2') format('woff2'),
+         url('/fonts/rotunda-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+:root {
+    --back-color: #0D0C0C;
+}
+
+
+
+* {
+    font-family: 'rotundaregular', 'Arial';
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    background-color: var(--back-color);
+
+}
+
+main {
+    font-weight: normal;
+    min-height: calc(100vh - 8vh - 11vh);
+    overflow-x: clip;
+
+}
+
+.main-flex{
+    display: flex;
+    flex-direction: row;
+    height:81vh;
+
+}
+.settings-flex{
+    display: flex;
+    flex-direction: column;
+
+    width:14vw;
+    align-items: center;
+    border-right: 0.4vw solid grey;
+}
+
+.settings-flex > ul{
+    margin-top:2vh;
+    font-size:2vh;
+    color:white;
+}
+
+.settings-flex > ul > li{
+    padding-top:2vh;
+    text-decoration: none;
+    color:white;
+}
+
+
+
+
+h2{
+    font-size:3vh;
+    margin-top:4vh;
+}
+
+.main-flex-right{
+    display: flex;
+    flex-direction: column;
+    margin-left:4vw;
+    width:82vw;
+}
+
+.crypto-table-info {
+    display: inline-flex;
+    width: 100%;
+    display: flex;
+    font-weight: 500;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 1.6vh;
+    overflow: clip;
+    margin-top: 0.4vh;
+    margin-left: 20vw;
+}
+
+.crypto-table-flex {
+    display: flex;
+    margin-top: 1vh;
+   
+}
+
+
+.crypto-table {
+    width: 50%;
+    font-size: 2vh;
+    
+}
+
+.crypto-table-info-header {
+    width: 2vw;
+}
+
+.crypto-table-header {
+    border-bottom: 5px solid #322D2D;
+    font-weight: bold;
+    font-size: 2vh;
+}
+
+
+.crypto-table-no {
+    width: 10%;
+    padding: 10px;
+    text-align: center;
+}
+
+.crypto-table-price {
+    text-align: right;
+
+}
+
+.crypto-table-data-no {
+    text-align: center;
+    padding: 1.5vh;
+    font-weight: bold;
+}
+
+.crypto-table-data-name > p{
+    display: inline;
+}
+
+.crypto-table-data-name > ul {
+    display: inline;
+}
+
+.crypto-table-data-name > ul > li {
+    display:inline;
+    opacity:40%;
+}
+
+.crypto-table-data-name > img{
+    width: 1.5vw;
+    margin-right: 0.5vw;
+}
+
+.crypto-table-data-name > p >a{
+    text-decoration: none;
+    color:white;
+}
+
+.crypto-table-data-tradename{
+    display: inline;
+
+    margin-left:1vw;
+    opacity: 40%;
+}
+
+.crypto-table-row:hover{
+    background-color: #1a1a1a;
+    transition:0.3s;
+}
+
+
+.crypto-table-row >  td:first-child,
+th:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+.crypto-table-row > td:last-child,
+th:last-child {
+  border-radius: 0 10px 10px 0;
+}
+
+
+.crypto-table-data-trade>a {
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
+
+.crypto-table-data-trade>a:hover {
+    text-decoration: none;
+    color: #CC00FF;
+}
+
+
+
+
+.crypto-table > ul > li{
+    display: inline;
+}
+
+
+.crypto-table-data-price {
+    text-align: right;
+}
+
+.crypto-table-data-24hchange{
+    text-align:center;
+}
+
+.crypto-table-data-24hchange-red{
+color:red;
+}
+.crypto-table-data-24hchange-red{
+    color:green;
+ }
+
+
+.crypto-table-data-trade{
+    text-align: right;
+    padding-right: 2vw;
+}
+
+.crypto-table-info-row>td {
+
+    width: 12vw;
+    background-color: red;
+
+}
+
+.crypto-table-24hchange {
+    text-align: center;
+    width: 20%;
+}
+
+.crypto-table-trade {
+    text-align: right;
+    padding-right: 2vw;
+    width: 8vw;
+}
+
+
+
+
+
+
+
+
+
+
+.crypto-table-info-row-right {
+    text-align: right;
+    padding-top: 1.2vh;
+
+}
+
+.crypto-table-info-row-left {
+    text-align: left;
+    padding-left: 2vw;
+    padding-top: 1.2vh;
+}
+
+.settings-flex > ul > li > a{
+    text-decoration: none;
+    color:white;
+    opacity:0.5;
+    transition: 0.2s;
+
+}
+.settings-flex > ul > li > a:hover{
+    text-decoration: none;
+    color:white;
+    opacity: 1;
+    text-decoration: underline;
+}

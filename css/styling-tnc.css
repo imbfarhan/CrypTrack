@@ -1,0 +1,15 @@
+.tnc-flex{
+    width:80vw;
+    height:70vh;
+    overflow:auto;
+    background: #272324;
+    border: 4.58681px solid #4E4B4D;
+    border-radius: 45.0452px;
+    padding:2%;
+}
+h3{
+    font-size:3vh;
+}
+a{
+    text-decoration: none;
+}

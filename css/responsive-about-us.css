@@ -1,0 +1,124 @@
+
+
+@media screen and (max-width:1400px){
+    .who-are-we{
+        height:40vh;
+    }
+
+}
+
+@media screen and (max-width:850px){
+    h2.our-mission-text
+    {
+        text-align: center;
+    }
+    
+    
+    .logo{
+        top:5vh;
+        height:4vh;
+    }
+    nav ul{
+        flex-direction: column;
+
+    }
+    header{
+        height:15vh;
+    }
+    
+
+    .who-are-we{
+        width:9vw;
+
+        flex-direction: column;
+    }
+
+    .who-are-we-text{
+        margin-left:0;
+        width:4vw;
+    }
+
+    .who-are-we-content{
+        margin-left:0;
+        margin-top:2vh;
+    }
+
+    .our-mission{
+        flex-direction: column-reverse;
+    }
+
+    .our-mission-text{
+        width: 50vw;
+    }
+
+    h2.our-mission-text{
+        margin-top:10vw
+    }
+
+    .footer-left div{
+        width:24vw;
+        
+    }
+    ul.footer-learn{
+        width:24vw;
+    }
+
+
+}
+
+
+@media screen and (max-width:540px){
+    .logo{
+        top:5vh;
+        height:4vh;
+    }
+
+    nav ul{
+        flex-direction: column;
+
+    }
+    header{
+        height:15vh;
+    }
+    
+
+.our-mission-image{
+    height:50%;
+    width:50%;
+}
+
+    .who-are-we{
+        width:900px;
+        height:100vh;
+        flex-direction: column;
+    }
+
+    .who-are-we-text{
+        margin-left:0;
+        width:50vw;
+
+
+    }
+
+    .who-are-we-content{
+        margin-left:0;
+        margin-top:2vh;
+ 
+    }
+
+    .caymann-image{
+        height:40%;
+        width:40%;
+    }
+
+    .farhan-image{
+        height:40%;
+        width:40%;
+    }
+
+    ul.footer-learn{
+        width:24vw;
+    }
+
+}
+    

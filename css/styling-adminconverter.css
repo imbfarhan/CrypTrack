@@ -1,0 +1,13 @@
+.converter-heading > h5{
+    font-size:2.4vh;
+}
+
+.converter-heading{
+    display:flex;
+    width:60%;
+    justify-content: space-between;
+}
+
+.crypto-table-data-price > p{
+    margin-bottom:0;
+}

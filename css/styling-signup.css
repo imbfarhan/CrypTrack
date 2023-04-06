@@ -1,0 +1,250 @@
+@font-face {
+    font-family: 'rotundaregular';
+    src: url('/fonts/rotunda-regular-webfont.woff2') format('woff2'),
+        url('/fonts/rotunda-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rotundabold';
+    src: url('/fonts/rotunda-bold-webfont.woff2') format('woff2'),
+         url('/fonts/rotunda-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+:root {
+    --back-color: #0D0C0C;
+}
+
+
+
+* {
+    font-family: 'rotundaregular', 'Arial';
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    background-color: var(--back-color);
+
+}
+
+main {
+    font-weight: normal;
+    min-height: calc(100vh - 10vh);
+    overflow-x: clip;
+
+}
+
+h1{
+    font-weight: bold;
+    align-items: center;
+}
+
+.main-div-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading-flex{
+    margin-top:8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading-flex > img{
+    margin-left:2vw;
+    width:15vw;
+}
+#home-logo{
+    margin-left:2vw;
+    width:15vw;
+}
+
+.register-flex{
+    margin-top:3vh;
+    display: flex;
+    flex-direction: row;
+    width:80vw;
+    height:65vh;
+}
+.register-left{
+
+    height:65vh;
+    width:30vw;
+    padding:2%;
+    flex-direction: column;
+
+}
+
+.register-left-sub-heading{
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.register-left-main-heading{
+    text-align:center;
+    margin-top:4vh;
+    font-size:1.5vw;
+    font-weight: bold;
+}
+.register-left-heading > h4{
+    font-size:2vh;
+    font-weight: bold;
+}
+
+.register-left-paragraph{
+    margin-top:4vh;
+    font-size:1vw;
+}
+
+.register-left-ul-heading{
+    margin-top:4vh;
+    font-size:1.2vw;
+}
+.register-left-bottom-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.register-left-bottom-flex > ul > li{
+    font-size:1vw;
+}
+.register-left-bottom-flex >img {
+    height:7vw;
+}
+
+.register-right{
+    width:40vw;
+}
+.register-form-flex{
+    overflow: auto;
+    padding-top:4%;
+    padding-right:4%;
+    padding-left:4%;
+    padding-bottom:0%;
+    
+    margin-left:2.5vw;
+    width:40vw;
+    height: 65vh;
+    background: #272324;
+    border: 4.58681px solid #4E4B4D;
+    border-radius: 45.0452px;
+}
+
+.register-form-flex >h4{
+    font-size:3vh;
+
+}
+
+#field{
+    width: 20vw;
+    height:3.2vh;
+    background: #AEAEC0;
+    box-shadow: 0px 3.68359px 3.68359px rgba(0, 0, 0, 0.25);
+    border-radius: 7.36719px;
+}
+.general-input{
+    font-size:1.6vh;
+    margin-top:2vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.password-flex{
+    font-size:1.6vh;
+    margin-top:2vh;
+    display: flex;
+
+    justify-content: space-between;
+}
+.password-inner-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+#field-2{
+    width: 14vw;
+    height:3.2vh;
+    background: #AEAEC0;
+    box-shadow: 0px 3.68359px 3.68359px rgba(0, 0, 0, 0.25);
+    border-radius: 7.36719px;
+}
+
+.sign-up
+{
+    display: flex;
+    margin-top:-2vh;
+    justify-content: space-between;
+}
+
+.sign-up-checkbox{
+    display: flex;
+    flex-direction: column;
+    height:5vh;
+
+    font-size:1.6vh;
+    margin-top: 3vh;
+}
+
+#submit {
+    text-shadow: 0px 2.70071px 2.70071px rgba(0, 0, 0, 0.25);
+    font-family:'rotundaregular';
+    font-weight: bolder;
+    -webkit-text-stroke-color: black;
+    display: flex;
+    margin-top: 1vh;
+    color: #F4EFFB;
+    width: 6vw;
+    height: 6vh;
+    display: flex;
+    align-self: center;
+    background: #9507EF;
+    border-radius: 42px;
+    align-items: center;
+    justify-content: center;
+    font-size:2.5vh;
+    transition:0.2s;
+}
+
+#submit:hover{
+    background-color: #44096A;
+}
+/* 
+.error-message{
+    display: flex;
+    align-items: center;
+    color:red;
+    font-weight:bold;
+    margin-top:1vh;
+    font-size:1vw;
+    margin-left:0.5vw;
+} */
+
+#tnc-agreement{
+    color:#9507EF;
+}
+
+.error-message-text{
+    color:red;
+    font-weight:bold;
+    font-size:2vh;
+}
+
+.error-message-hidden{
+    flex-direction: row;
+    height:6vh;
+    display: flex;
+    align-items: center;
+    color:red;
+    font-weight:bold;
+    font-size:1vw;
+    margin-top:4vh;
+}

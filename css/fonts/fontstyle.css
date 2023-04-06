@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'rotundaregular';
+    src: url('rotunda-regular-webfont.woff2') format('woff2'),
+         url('rotunda-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+p{
+font-family:'rotundaregular','Comic Sans MS';
+font-weight:normal;
+font-style:normal;
+}

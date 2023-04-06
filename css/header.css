@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'rotundaregular';
+    src: url('/fonts/rotunda-regular-webfont.woff2') format('woff2'),
+        url('/fonts/rotunda-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rotundabold';
+    src: url('/fonts/rotunda-bold-webfont.woff2') format('woff2'),
+         url('/fonts/rotunda-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+:root {
+    --back-color: #0D0C0C;
+}
+
+* {
+    font-family: 'rotundaregular', 'Arial';
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-weight: lighter;
+    display:flex;
+    height: 8vh;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    border: 2px#322D2D;
+    border-style: none none solid none;
+}
+
+/* .abouth1{
+    position:relative;
+    margin :96px 0;
+    text-align:center;
+
+} */
+
+.about-us-main-heading {
+    text-align: center;
+    top: 60px;
+    font-weight: bolder;
+    position: relative;
+}
+
+
+nav {
+    display: flex;
+
+    align-items: flex-start;
+    justify-content: center;
+    height: 8vh;
+    max-width: 100%;
+}
+
+.logo{
+    position:absolute;
+    top:1vh;
+    left:0;
+    height:5vh;
+}
+
+nav ul {
+
+    height: 8vh;
+    padding: 0 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 0 45px;
+    list-style: none;
+}
+
+nav ul li a {
+    opacity: 0.5;
+    font-size: 2vw;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition:0.2s;
+}
+
+nav ul li a:hover {
+    opacity: 1;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.user-flex{
+    position:absolute;
+    align-self: flex-end;
+    justify-self: flex-end;
+
+    top:2.6vh;
+    right:2.5vw;
+    height:5vh;
+}
+
+.img-flex{
+    display:flex;
+}
+.btn-secondary{
+border:none;
+color: white;
+opacity: 1;
+font-family: 'rotundaregular';
+transition:0.2s;
+font-weight: bold;
+
+}
+
+.customButton{
+background-color: red;
+}
+
+.user-button{
+    color:white;
+    text-decoration: none;
+    opacity: 0.5;
+    font-weight: bold;
+    transition: 0.2s;
+    margin-right:5vw;
+
+}
+
+.user-button:hover{
+    opacity: 1;
+    color:white;
+    text-decoration: none;
+
+}

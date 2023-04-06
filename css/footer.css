@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'rotundaregular';
+    src: url('/fonts/rotunda-regular-webfont.woff2') format('woff2'),
+        url('/fonts/rotunda-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rotundabold';
+    src: url('/fonts/rotunda-bold-webfont.woff2') format('woff2'),
+         url('/fonts/rotunda-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+:root {
+    --back-color: #0D0C0C;
+}
+
+* {
+    font-family: 'rotundaregular', 'Arial';
+    margin: 0;
+    padding: 0;
+}
+
+
+footer {
+    border: 2px#322D2D;
+    border-style: solid none none none;
+    height: 10vh;
+    color: white;
+}
+
+.footerfirstpart {
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+
+.footer-logo{
+    height:40px;
+    width:140px;
+}
+
+.container {
+    margin-top: 50px;
+    width: 50vw;
+}
+
+.positionrow {
+    position: relative;
+    top: 10vh;
+    left: 20vh;
+
+}
+
+footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* THIS CONTENT IS CAUSING OVERFLOW!! */
+}
+
+img.footer-logo{
+    width:6vw;
+height:3.5vh;
+}
+
+.logo-info{
+    display:flex;
+    flex-direction:column;
+    margin-left:2%;
+    margin-top:0.5%;
+    width:20vw;
+}
+
+ul.footer-learn{
+    list-style:none;
+    width:10vw;
+}
+
+ul.footer-follow{
+    margin-right:1vw;
+    list-style:none;
+    line-height:2.6vh;
+
+}
+
+.followus-img{
+    height:1.8vh;
+}
+
+ul.footer-contact{
+    list-style:none;
+}
+
+.footer-left{
+    display: flex;
+    align-items: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.footer-right{
+    display: flex;
+
+    align-items: row;
+}
+
+.footer-left div{
+    width:14vw;
+
+}

@@ -1,0 +1,15 @@
+@media screen and (max-width:1150px){
+
+div.login-box {
+    align-self: center;
+    justify-self: center;
+    width: 30vw;
+    height: 75vh;
+    margin-top: 5vh;
+    background: #272324;
+    border: 5px solid #4E4B4D;
+    border-radius: 46px;
+}
+
+
+}

@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'rotundaregular';
+    src: url('/fonts/rotunda-regular-webfont.woff2') format('woff2'),
+        url('/fonts/rotunda-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --back-color: #0D0C0C;
+}
+
+* {
+    font-family: 'rotundaregular', 'Arial';
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    font-weight: normal;
+    min-height: calc(100vh - 8vh - 11vh);
+    overflow-x: clip;
+    text-align: center;
+}
+body {
+    color: white;
+    background-color: var(--back-color);
+    
+}
+.im1g{
+    width:100px;
+    height: 100%;
+    display: block;
+    margin: 0px auto;
+}
+.submitb{
+    color: #F4EFFB;
+    margin-top:2vh;
+    background-color: #9507EF;
+    align-items: center;
+    align-self: center;
+    width:50%;
+    border-radius: 12px;
+    font-weight:bold;
+    text-shadow: 0px 2.70071px 2.70071px rgba(0, 0, 0, 0.25);
+}
+
+.submitb:hover{
+    transition:0.2s;
+background-color: #44096A;
+}
+
+
+* {
+    font-family:'rotundaregular', 'Arial';
+    margin: 0;
+    padding: 0;
+}
+
+
+.form-p{
+    align-self: center;
+}
+
+.main-flex{
+    background-color: red;
+}

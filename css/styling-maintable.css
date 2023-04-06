@@ -1,0 +1,248 @@
+@font-face {
+    font-family: 'rotundaregular';
+    src: url('/fonts/rotunda-regular-webfont.woff2') format('woff2'),
+        url('/fonts/rotunda-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+:root {
+    --back-color: #0D0C0C;
+}
+
+* {
+    font-family: 'rotundaregular', 'Arial';
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    font-weight: normal;
+    min-height: calc(100vh - 8vh - 11vh);
+    overflow-x: hidden;
+}
+
+body {
+    color: white;
+    background-color: var(--back-color);
+    overflow-x: hidden;
+}
+
+.top-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    align-self: center;
+    display: inline-flex;
+    text-align: center;
+    margin-top: 6vh;
+    font-size: 4vh;
+}
+
+h4 {
+    display: inline-flex;
+    font-size: 2.5vh;
+    margin-top: 2vh;
+    align-self: center;
+}
+
+
+
+.crypto-table-info {
+    display: inline-flex;
+    width: 100%;
+    display: flex;
+    font-weight: 500;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 1.6vh;
+    overflow: clip;
+    margin-top: 0.4vh;
+    margin-left: 20vw;
+}
+
+.crypto-table-flex {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 2vh;
+    height: 40vh;
+}
+
+
+.crypto-table {
+    width: 50%;
+    font-size: 2vh;
+}
+
+.crypto-table-info-header {
+    width: 2vw;
+}
+
+.crypto-table-header {
+    border-bottom: 5px solid #322D2D;
+    font-weight: bold;
+    font-size: 2vh;
+}
+
+
+.crypto-table-no {
+
+    width: 10%;
+    padding: 10px;
+    text-align: center;
+}
+
+.crypto-table-price {
+    text-align: center;
+}
+
+.crypto-table-data-no {
+    text-align: center;
+    padding: 1.5vh;
+    font-weight: bold;
+}
+
+.crypto-table-data-name > p{
+    display: inline;
+}
+
+.crypto-table-data-name > p >a{
+    text-decoration: none;
+    color:white;
+}
+
+.crypto-table-data-name > ul {
+    display: inline;
+}
+
+.crypto-table-data-name > ul > li {
+    display:inline;
+    opacity:40%;
+}
+
+.crypto-table-data-name > img{
+    width: 1.5vw;
+    margin-right: 0.5vw;
+}
+
+.crypto-table-data-tradename{
+    display: inline;
+
+    margin-left:1vw;
+    opacity: 40%;
+}
+
+.crypto-table-row:hover{
+    background-color: #1a1a1a;
+    transition:0.3s;
+}
+
+
+.crypto-table-row >  td:first-child,
+th:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+.crypto-table-row > td:last-child,
+th:last-child {
+  border-radius: 0 10px 10px 0;
+}
+
+
+.crypto-table-data-trade>a {
+    text-decoration: underline;
+    color: white;
+    transition: 0.2s;
+}
+
+.crypto-table-data-trade>a:hover {
+    text-decoration: underline;
+    color: #CC00FF;
+}
+
+
+
+
+.crypto-table > ul > li{
+    display: inline;
+}
+
+
+.crypto-table-data-price {
+    text-align: right;
+}
+
+.crypto-table-data-24hchange{
+    text-align:center;
+}
+
+.crypto-table-data-trade{
+    text-align: right;
+    padding-right: 2vw;
+}
+
+.crypto-table-info-row>td {
+
+    width: 12vw;
+    background-color: red;
+
+}
+
+.crypto-table-24hchange {
+    text-align: center;
+    width: 20%;
+}
+
+.crypto-table-trade {
+    text-align: right;
+    padding-right: 2vw;
+    width: 8vw;
+}
+
+#option-sort{
+    background-color: rgb(225, 185, 225);
+    font-weight:bold;
+}
+
+select {
+    background-color: rgb(225, 185, 225);
+    font-weight:bold;
+    border:0.2vw solid #9507EF;
+  }
+
+  .option-sort-selector{
+    display:inline;
+    font-weight:bold;
+ 
+}
+
+.sort-option-flex{
+    margin-top:3vh;
+    margin-left:70vw;
+    display:inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+.crypto-table-info-row-right {
+    text-align: right;
+    padding-top: 1.2vh;
+
+}
+
+.crypto-table-info-row-left {
+    text-align: left;
+    padding-left: 2vw;
+    padding-top: 1.2vh;
+}

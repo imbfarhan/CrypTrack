@@ -1,0 +1,319 @@
+@font-face {
+    font-family: 'rotundaregular';
+    src: url('/fonts/rotunda-regular-webfont.woff2') format('woff2'),
+        url('/fonts/rotunda-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+:root {
+    --back-color: #0D0C0C;
+}
+
+* {
+    font-family: 'rotundaregular', 'Arial';
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* header {
+    font-weight: lighter;
+    display:flex;
+    height: 8vh;
+    align-items: center;
+    justify-content: center; */
+    /* background-color: red; */
+    /* border: 2px#322D2D;
+    border-style: none none solid none;
+} */
+
+/* .abouth1{
+    position:relative;
+    margin :96px 0;
+    text-align:center;
+
+} */
+
+/* .about-us-main-heading {
+    text-align: center;
+    top: 60px;
+    font-weight: bolder;
+    position: relative;
+}
+
+
+
+
+nav {
+    display: flex;
+
+    align-items: flex-start;
+    justify-content: center;
+    height: 8vh;
+    max-width: 100%;
+}
+
+.logo{
+    position:absolute;
+    top:1vh;
+    left:0;
+    height:5vh;
+}
+
+nav ul {
+
+    height: 8vh;
+    padding: 0 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 0 45px;
+    list-style: none;
+}
+
+nav ul li a {
+    opacity: 0.5;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition:0.2s;
+}
+
+nav ul li a:hover {
+    opacity: 1;
+    color: #FFFFFF;
+    text-decoration: none;
+} */
+
+body {
+    color: white;
+    background-color: var(--back-color);
+    
+}
+
+main {
+    font-weight: normal;
+    min-height: calc(100vh - 8vh - 11vh);
+    overflow-x: clip;
+
+}
+
+.our-mission {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    position: relative;
+    margin-left: 25%;
+    margin-top: 100px;
+}
+
+.our-mission-content {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+
+}
+
+
+.our-mission-image {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    filter: drop-shadow(10px 10px 4px #9747FF);
+    border-radius: 11px;
+    margin-left: 11vw;
+}
+
+
+
+.our-mission-text {
+    display: flex;
+    width: 30vw;
+}
+
+.who-are-we {
+    display: flex;
+    flex-direction: row;
+    width: 52vw;
+    height: 40vh;
+    position: relative;
+    margin-left: 25%;
+    margin-top: 100px;
+}
+
+
+
+.caymann-image {
+    display: flex;
+    width: 180%;
+    height: 84%
+}
+.image-flex-caymann{
+    display:flex;
+    flex-direction: column;
+    width: 150px;
+    height:244px;
+    filter:grayscale(100%);
+    transition:0.2s;
+}
+
+.image-flex-caymann:hover{
+    display:flex;
+    flex-direction: column;
+    width: 150px;
+    height:244px;
+    filter:grayscale(0%)
+}
+
+
+
+.image-caption{
+display: flex;
+text-align: center;
+font-size:14px;
+}
+
+.image-flex-farhan{
+    display:flex;
+    flex-direction: column;
+    width: 150px;
+    height:244px;
+    margin-left:8vw;
+    filter:grayscale(100%);
+    transition:0.2s;
+}
+
+.image-flex-farhan:hover{
+    display:flex;
+    flex-direction: column;
+    width: 150px;
+    height:244px;
+    margin-left:8vw;
+    filter:grayscale(0%);
+}
+
+
+
+.farhan-image {
+    display: flex;
+    width:180px;
+    height: 84%;
+}
+
+.who-are-we-content{
+    display: flex;
+    flex-direction: column;
+    margin-left:4vw;
+    height:20vw;
+}
+
+.who-are-we-text{
+    display: flex;
+    width:25vw;
+    margin-left:0;
+}
+
+
+
+.about-us-box {
+    margin: 0px 10px;
+}
+
+
+footer {
+    border: 2px#322D2D;
+    border-style: solid none none none;
+    height: 10vh;
+    color: white;
+}
+
+.footerfirstpart {
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+
+.footer-logo{
+    height:40px;
+    width:140px;
+}
+
+.container {
+    margin-top: 50px;
+    width: 50vw;
+}
+
+.positionrow {
+    position: relative;
+    top: 10vh;
+    left: 20vh;
+
+}
+
+footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* THIS CONTENT IS CAUSING OVERFLOW!! */
+}
+
+img.footer-logo{
+height: 40px;
+width: 140px;
+}
+
+.logo-info{
+    display:flex;
+    flex-direction:column;
+    margin-left:2%;
+    margin-top:0.5%;
+    width:20vw;
+}
+
+ul.footer-learn{
+    list-style:none;
+    width:10vw;
+}
+
+ul.footer-follow{
+    list-style:none;
+}
+
+.followus-img{
+    width:20px;
+    height:20px;
+}
+
+ul.footer-contact{
+    list-style:none;
+}
+
+.footer-left{
+    display: flex;
+    align-items: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.footer-right{
+    display: flex;
+    align-items: row;
+}
+
+.footer-left div{
+    width:14vw;
+
+}
+
+.who-are-we-img-box{
+    display:flex;
+}
