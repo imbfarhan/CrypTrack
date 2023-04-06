@@ -1,0 +1,4 @@
+https://newsdata.io/api/1/news?apikey=pub_132134d451cd1c2ccc43ade6f96a4851f0268&q=bitcoin%20OR%20ethereum%20OR%20bnb%20OR%20binance%20OR%20dogecoin%20OR%20doge%20OR%20usdt%20OR%20tether&language=en 
+
+
+bitcoin OR ethereum OR bnb OR binance OR dogecoin OR doge OR usdt OR tether

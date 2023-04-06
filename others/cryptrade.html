@@ -1,0 +1,238 @@
+<?php
+
+session_start();
+
+if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
+{
+    header("location: login.php");
+}
+
+
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrypTrade</title>
+    <link rel="stylesheet" href="css/styling-cryptrade.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive-about-us.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/fonts/fontstyle.css">
+    <link rel="stylesheet" href="css/fonts/stylesheet.css">
+</head>
+
+<body>
+    <header>
+        <div class="img-flex">
+            <img src="img/logo.png" alt="" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="dashboard.php">Track</a></li>
+                <li><a href="...">CrypTrade</a></li>
+                <li><a href="...">Convert</a></li>
+                <li><a href="...">News</a></li>
+
+            </ul>
+        </nav>
+        <div class="user-flex">
+            <div class="dropdown show">
+                <a class="user-button bg-transparent dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <?php echo $_SESSION["username"] ?>
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#">Liked Cryptos</a>
+                    <a class="dropdown-item" href="#">test</a>
+                    <a class="dropdown-item" href="logout.php">Logout</a>
+                </div>
+            </div>
+        </div>
+
+
+
+    </header>
+
+
+
+
+    <main>
+        <div class="main-flex">
+            <div class="upper-flex">
+
+                <div class="left-upper-flex">
+                    <div class="my-trades">
+                        <div class="my-trades-heading">
+                            <p>Trades Performed</p>
+                        </div>
+                        <div class="trades-table">
+                            <table class="my-trades-table">
+                                <tr class="my-trades-table-row">
+                                    <td class="my-trades-table-left">Total Trades</td>
+                                    <td class="my-trades-table-right">12345</td>
+                                </tr>
+                                <tr class="my-trades-table-row">
+                                    <td class="my-trades-table-left">Active Trades</td>
+                                    <td class="my-trades-table-right">12345</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="middle-upper-flex">
+                    <h1>CrypTrade</h1>
+                    <div class="trade-form">
+                        <form action="">
+                            <div class="trade-form-upper">
+                                <div class="trade-form-option-left">
+                                    <p> Select Coin: </p>
+                                    <select name="coinselect" id="coinselect">
+                                        <option value="btc">Bitcoin</option>
+                                        <option value="eth">Ethereum</option>
+                                        <option value="bnb">BNB</option>
+                                        <option value="doge">Dogecoin</option>
+                                        <option value="usdt">Tether</option>
+                                    </select>
+                                </div>
+                                <div class="trade-form-option-middle">
+                                    <p>Enter Amount:</p>
+                                    <input type="text" name="amount" id="amount" placeholder="Amount">
+                                </div>
+                                <div class="trade-form-option-right">
+                                    <div class="trade-value">Trade Value:</div>
+                                    <p id="trade-total">123456</p>
+                                </div>
+                            </div>
+                            <input type="submit" name="submit" id="submit" value="Trade">
+                        </form>
+                    </div>
+                </div>
+
+
+                <div class="right-upper-flex">
+                    <div class="crypto-prices">
+                        test2
+                    </div>
+                </div>
+            </div>
+           
+            <div class="main-table">
+                <h2>My Portfolio</h2>
+                <div class="crypto-table-flex">
+                    <table class="crypto-table">
+                        <thead>
+                            <tr class="crypto-table-header">
+                                <td class="crypto-table-no">#</td>
+                                <td>Crypto</td>
+                                <td class="crypto-table-price">Invested Amount(USD)</td>
+                                <td class="crypto-table-price">Invested Amount(Crypto)</td>
+                                <td class="crypto-table-price">Current Value</td>
+                                <td class="crypto-table-price">Profit/Loss</td>
+                                <td class="crypto-table-price">Date</td>
+                                <td class="crypto-table-price">Status</td>
+                                <td class="crypto-table-no">Action</td>
+
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="crypto-table-row">
+                                <td class="crypto-table-data-no"> 1</td>
+                                <td class="crypto-table-data-name">
+                                    <p> Bitcoin </p>
+                                </td>
+                                <td class="crypto-table-data-price">$19,112.20</td>
+                                <td class="crypto-table-data-price">0.000000000023 BTC</td>
+                                <td class="crypto-table-data-price">$19,112.20</td>
+                                <td class="crypto-table-data-price">$19,112.20</td>
+                                <td class="crypto-table-data-price">2011/02/03</td>
+                                <td class="crypto-table-data-price">Active</td>
+                                <td class="crypto-table-data-trade"> <a href="https://www.wazirx.com"
+                                        target="_blank">Trade</a></td>
+                            </tr>
+
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        
+        </div>
+    </main>
+
+
+
+
+
+    <footer>
+        <div class="footer-left">
+            <div class="logo-info">
+                <img class="footer-logo" src="img/logo.png" alt="">
+                <div class="fs-12">
+                    &copy;CrypTrack 2022
+                </div>
+                <div class="fs-12">
+                    Crypto API powered by CoinGecko.
+                </div>
+            </div>
+
+            <ul class="footer-learn">
+                <li class="fs-16b">Learn</li>
+                <li class="fs-12">What is crypto?</li>
+                <li class="fs-12">Blockchain</li>
+                <li class="fs-12">Basics of Trading</li>
+            </ul>
+        </div>
+        <div class="footer-right">
+            <ul class="footer-follow">
+                <li class="fs-16b">Follow Us</li>
+                <li>
+                    <a href="https://www.facebook.com">
+                        <img src="img/footer/fb.webp" alt="facebook" class="followus-img">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com">
+                        <img src="img/footer/insta.webp" alt="" class="followus-img">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com">
+                        <img src="img/footer/linkedin.png" alt="linkedin" class="followus-img">
+                    </a>
+                </li>
+            </ul>
+            <ul class="footer-contact">
+                <li class="fs-16b">Contact Us</li>
+                <li class="fs-12">Email</li>
+            </ul>
+        </div>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+
+</html>

@@ -1,0 +1,64 @@
+<table class="crypto-table">
+                <thead>
+                <tr class="crypto-table-header">
+                    <td class="crypto-table-no">#</td>
+                    <td>Name</td>
+                    <td class="crypto-table-price">Price</td>
+                    <td class="crypto-table-24hchange">24h Change</td>
+                    <td class="crypto-table-trade">Trade</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="crypto-table-row">
+                    <td class="crypto-table-data-no"> 1</td>
+                    <td class="crypto-table-data-name">
+                        <img src="img/cryptologos/bitcoin.png" alt="">
+                        <p> Bitcoin </p>  <p class="crypto-table-data-tradename"> •BTC</p>
+                        
+                    </td>
+                    <td class="crypto-table-data-price">$19,112.20</td>
+                    <td class="crypto-table-data-24hchange">-1.42%</td>
+                    <td class="crypto-table-data-trade"> <a href="https://www.wazirx.com" target="_blank">Trade</a></td>
+                </tr>
+                <tr class="crypto-table-row">
+                    <td class="crypto-table-data-no">2</td>
+                    <td class="crypto-table-data-name">
+                        <img src="img/cryptologos/ethereum.png" alt="">
+                        <p> Ethereum </p>  <p class="crypto-table-data-tradename"> •ETH</p>
+                    </td>
+                    <td class="crypto-table-data-price">$1,321.85</td>
+                    <td class="crypto-table-data-24hchange">+0.14%</td>
+                    <td class="crypto-table-data-trade"> <a href="https://www.wazirx.com" target="_blank">Trade</a> </td>
+                </tr>
+                <tr class="crypto-table-row">
+                    <td class="crypto-table-data-no">3</td>
+                    <td class="crypto-table-data-name">
+                        <img src="img/cryptologos/tether.png" alt="">
+                        <p> Tether </p>  <p class="crypto-table-data-tradename"> •USDT</p>
+                    </td>
+                    <td class="crypto-table-data-price">$1.0</td>
+                    <td class="crypto-table-data-24hchange">-1.42%</td>
+                    <td class="crypto-table-data-trade"> <a href="https://www.wazirx.com" target="_blank">Trade</a> </td>
+                </tr>
+                <tr class="crypto-table-row">
+                    <td class="crypto-table-data-no">4</td>
+                    <td class="crypto-table-data-name">
+                        <img src="img/cryptologos/bnb.png" alt="">
+                        <p> BNB </p>  <p class="crypto-table-data-tradename"> •BNB</p>
+                    </td>
+                    <td class="crypto-table-data-price">$279.07</td>
+                    <td class="crypto-table-data-24hchange">+1.85%</td>
+                    <td class="crypto-table-data-trade"> <a href="https://www.wazirx.com" target="_blank">Trade</a> </td>
+                </tr>
+                <tr class="crypto-table-row">
+                    <td class="crypto-table-data-no">5</td>
+                    <td class="crypto-table-data-name">
+                        <img src="img/cryptologos/dogecoin.png" alt="">
+                        <p> Dogecoin </p>  <p class="crypto-table-data-tradename"> •DOGE</p>
+                    </td>
+                    <td class="crypto-table-data-price">$0.0657</td>
+                    <td class="crypto-table-data-24hchange">+7.35%</td>
+                    <td class="crypto-table-data-trade"> <a href="https://www.wazirx.com" target="_blank">Trade</a> </td>
+                </tr>
+            </tbody>
+            </table>
