@@ -16,7 +16,7 @@ confusions. Through this project we are trying to gain knowledge about cryptocur
 and to get the information of various spectrum of cryptocurrencies at one place.
 
 ## SCREENSHOTS:
-<p align="center"> Landing Page </p>
+
 ![Landing Page](https://user-images.githubusercontent.com/111117967/236006430-6fe20116-287d-4297-a713-fc6cbfa1688f.png)
 
 ![Dashboard](https://user-images.githubusercontent.com/111117967/236006476-3dd735f5-c576-4781-a9c3-9a889bb0d5b4.png)
