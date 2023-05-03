@@ -39,14 +39,17 @@ and to get the information of various spectrum of cryptocurrencies at one place.
 
 ## FEATURES:
 1. Provides information about different type of cryptos.
-2. Crypto Mock Trading (CrypTrade)
-3. Tracks prices and updates every 1 min.
-4. Sorts crypto according to the price.
-5. Allows user to login via OTP (One time password)
-6. Management the liked cryptos of user.
-7. Option to buy crypto via third party website.
-8. Trending cryptos based on likes.
-9. Price chart
+2. Crypto Mock Trading (CrypTrade).
+3. Allows user to create accounts and login.
+4. Tracks prices and updates every minute.
+5. Price Converter (Crypto-To-Currency and Crypto-To-Crypto)
+6. Crypto News.
+7. Option to save a news topic to readit later.
+7. Sorts crypto according to the price,popularity. 
+8. Management of the liked cryptos of user.
+9. Option to buy crypto via third party website.
+10. Trending cryptos based on likes.
+11. Price chart.
 
 ## TECHNOLOGY:
 - HTML
